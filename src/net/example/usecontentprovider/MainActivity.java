@@ -9,7 +9,7 @@ import android.view.Menu;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
-    private static final Uri CONTENT_URI = Uri.parse("content://com.example.app.Provider");
+    private static final Uri CONTENT_URI = Uri.parse("content://com.example.contentprovider.Provider");
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
